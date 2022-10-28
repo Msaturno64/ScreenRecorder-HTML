@@ -1,0 +1,279 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/Image/13-131390_bi-background-light-blue-png-304043-background-for.jpg);
+    background-size: 46.5%;
+    font-family: sans-serif;
+    height: 100.9vh;
+}
+
+.login-box{
+    width: 320px;
+    height: 450px;
+    backdrop-filter: blur(2px);
+    border-radius: 2em;
+    background: rgba(0, 0, 0, 0.514);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.login-box .logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.login-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.login-box input[type="text"],
+.login-box input[type="password"],
+.login-box input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline:none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="text"]::placeholder{
+    color: #fff;
+}
+.login-box input[type="password"]::placeholder{
+    color: #fff;
+}
+.login-box input[type="email"]::placeholder{
+    color: #fff;
+}
+
+
+.login-box input[type="submit"]{
+    border:none;
+    outline: none;
+    height: 40px;
+    background:rgba(255, 255, 0, 0.733);
+    color: #000;
+    font-size: 15px;
+    border-radius: 2em;
+}
+
+.login-box input[type="submit"]:hover{
+    background:red;
+    cursor:grab;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 12.6px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+.login-box a:hover{
+    color: red;
+}
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    color: yellow;
+    padding-bottom: 20px;
+    margin-top: auto;
+}
+
+
+.nav{
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+.nav_ul{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_li{
+    display: inline-block;
+    position:relative;
+    top: 0px;
+    padding: 1px;
+    margin: 5px;
+    list-style: none;
+    background-color:rgba(0, 0, 0, 0.589);
+    border: 1px solid red;
+    backdrop-filter: blur(2px);
+    box-shadow:2px 2px 7px rgba(0, 0, 0, 0.788);
+}
+
+.nav_li a{
+    transition: all 1s;
+    text-decoration: none;
+    padding: 25px 10px; 
+    color: yellow;
+}
+/* //Responsive// */
+
+@media handheld, screen and (max-width:599px){
+    body{
+        background: url(Imagenes/Fondo.png);
+        background-size: 100.5%;
+        font-family: sans-serif;
+        height: 100.9vh;
+    }
+    
+    .login-box{
+        width: 300px;
+        height: 440px;
+        border-radius: 2em;
+        background: rgba(0, 0, 0, 0.514);
+        color: #fff;
+        top: 66%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%,-66%);
+        box-sizing: border-box;
+        padding: 70px 30px;
+    }
+    
+    .login-box .logo{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        top: -50px;
+        left: calc(50% - 50px);
+    }
+    .login-box h1{
+        margin: 0;
+        padding: 0 0 20px;
+        text-align: center;
+        font-size: 22px;
+    }
+    
+    .login-box label{
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        display: block;
+    }
+    
+    .login-box input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    
+    .login-box input[type="text"],
+    .login-box input[type="password"],
+    .login-box input[type="email"]{
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline:none;
+        height: 40px;
+        color: #fff;
+        font-size: 16px;
+    }
+    .login-box input[type="text"]::placeholder{
+        color: #fff;
+    }
+    .login-box input[type="password"]::placeholder{
+        color: #fff;
+    }
+    .login-box input[type="email"]::placeholder{
+        color: #fff;
+    }
+    
+    
+    .login-box input[type="submit"]{
+        border:none;
+        outline: none;
+        height: 40px;
+        background:rgba(255, 255, 0, 0.733);
+        color: #000;
+        font-size: 15px;
+        border-radius: 2em;
+    }
+    
+    .login-box input[type="submit"]:hover{
+        background:red;
+        cursor:grab;
+    }
+    
+    .login-box a{
+        text-decoration: none;
+        font-size: 12.6px;
+        line-height: 20px;
+        color: darkgray;
+    }
+    
+    .login-box a:hover{
+        color: red;
+    }
+    
+    .warnings{
+        width: 200px;
+        text-align: center;
+        color: yellow;
+        padding-bottom: 20px;
+        margin-top: auto;
+    }
+    
+    
+    .nav{
+        position: absolute;
+        top: 0;
+        right: 5px;
+    }
+    
+    .nav_ul{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .nav_li{
+        display: inline-block;
+        position:relative;
+        top: 0px;
+        padding: 1px;
+        margin: 5px;
+        list-style: none;
+        background-color:rgba(0, 0, 0, 0.589);
+        border: 1px solid red;
+        box-shadow:2px 2px 7px rgba(0, 0, 0, 0.788);
+    }
+    
+    .nav_li a{
+        transition: all 1s;
+        text-decoration: none;
+        padding: 25px 10px; 
+        color: yellow;
+    }
+    
+}
